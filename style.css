@@ -1,0 +1,62 @@
+﻿
+
+table {
+    empty-cells: show;
+    border: 1px solid black;
+}
+
+td, th {
+    border: 1px solid black;
+    empty-cells:show;
+}
+
+th {
+    background-color:white;
+}
+
+col:nth-child(3) {
+    background: yellow;
+}
+tr:nth-child(even) {
+    background-color:silver;
+}
+tr:nth-child(odd) {
+    background-color:darkgray;
+}
+
+.col1 {
+    font-style:italic;
+}
+
+#footer {
+    background-color:white;
+}
+.inner-content{
+  background-color:blue;
+  width:75%;
+  height:50%;
+  margin:auto;
+  padding: 25px;
+
+}
+
+.outer-content {
+    background-color:pink;
+    width:75%;
+    position:relative;
+    margin-top:20px;
+    left: 0px;
+
+}
+
+#get-form {
+    border: 1px solid black;
+}
+
+#post-form {
+    border: 1px solid black;
+}
+body {
+}
+
+
